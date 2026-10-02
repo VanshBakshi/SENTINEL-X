@@ -1,0 +1,7 @@
+2026-10-01T08:41:10Z WARN phishing email security-update@alert-example.test
+2026-10-01T08:47:01Z WARN powershell.exe suspicious script execution
+2026-10-01T08:48:20Z WARN download https://cdn-example.test/update/payload.exe
+2026-10-01T08:52:32Z WARN C2 callback 203.0.113.77
+2026-10-01T08:55:01Z WARN C2 callback 198.51.100.42
+2026-10-01T09:03:11Z WARN persistence HKCU\Software\Microsoft\Windows\CurrentVersion\Run\Updater
+2026-10-01T09:20:55Z CRITICAL ransomware encrypted files

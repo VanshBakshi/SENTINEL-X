@@ -1,0 +1,26 @@
+SENTINEL-X DEMO INCIDENT — FICTIONAL TRAINING DATA
+
+2026-10-01 08:41 Initial Access:
+Security monitoring identified a phishing email from security-update@alert-example.test.
+The message directed a user to a credential harvesting page.
+
+2026-10-01 08:47 Execution:
+The victim opened a malicious attachment and PowerShell was observed.
+The script attempted to download a payload using https://cdn-example.test/update/payload.exe.
+
+2026-10-01 08:52 Command and Control:
+The simulated malware contacted 203.0.113.77 and later 198.51.100.42.
+The traffic was described as command and control callback activity.
+
+2026-10-01 09:03 Persistence:
+A simulated run key was added under HKCU\Software\Microsoft\Windows\CurrentVersion\Run\Updater.
+
+2026-10-01 09:20 Impact:
+The exercise simulated ransomware behavior and file encryption.
+
+Artifacts:
+SHA256: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+MD5: bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+CVE-2025-12345 was referenced during investigation.
+
+This dataset is fictional and intended only for defensive software demonstration.

@@ -1,0 +1,44 @@
+T1059:
+  name: "Command and Scripting Interpreter"
+  tactic: "Execution"
+  keywords: ["powershell", "cmd.exe", "bash", "wscript", "cscript"]
+
+T1059.001:
+  name: "PowerShell"
+  tactic: "Execution"
+  keywords: ["powershell", "pwsh", "invoke-expression", "iex"]
+
+T1105:
+  name: "Ingress Tool Transfer"
+  tactic: "Command and Control"
+  keywords: ["download", "wget", "curl", "invoke-webrequest", "bitsadmin", "payload"]
+
+T1566:
+  name: "Phishing"
+  tactic: "Initial Access"
+  keywords: ["phishing", "spearphishing", "malicious attachment", "credential harvesting"]
+
+T1204:
+  name: "User Execution"
+  tactic: "Execution"
+  keywords: ["clicked", "open attachment", "macro", "user execution"]
+
+T1486:
+  name: "Data Encrypted for Impact"
+  tactic: "Impact"
+  keywords: ["ransomware", "encrypted files", "file encryption"]
+
+T1071.001:
+  name: "Web Protocols"
+  tactic: "Command and Control"
+  keywords: ["http", "https", "web request", "callback", "command and control"]
+
+T1547.001:
+  name: "Registry Run Keys / Startup Folder"
+  tactic: "Persistence"
+  keywords: ["run key", "startup", "registry persistence"]
+
+T1047:
+  name: "Windows Management Instrumentation"
+  tactic: "Execution"
+  keywords: ["wmic", "wmi"]

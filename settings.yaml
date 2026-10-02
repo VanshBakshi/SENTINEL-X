@@ -1,0 +1,17 @@
+app:
+  name: "SENTINEL-X"
+  subtitle: "AI Threat Intelligence & SOC Platform"
+  version: "2.0"
+
+risk:
+  critical: 85
+  high: 65
+  medium: 35
+
+nlp:
+  spacy_model: "en_core_web_sm"
+  transformer_model: "distilbert-base-uncased-finetuned-sst-2-english"
+  enabled: true
+
+paths:
+  output: "data/output"
